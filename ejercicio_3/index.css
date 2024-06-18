@@ -1,0 +1,29 @@
+#contenedor {
+    display: flex;
+    flex-direction: row;
+    background-color: green;
+}
+
+p{
+    margin: 5px;
+    padding: 10px;
+    text-align: justify;
+    
+}
+
+p:nth-child(1){
+    background-color: chocolate;
+
+}
+
+
+p:nth-child(2){
+    background-color: orange;
+    
+}
+
+
+p:nth-child(3){
+    background-color: cyan;
+    
+}
